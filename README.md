@@ -30,13 +30,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+    - Document Object Model.
+
 2. What is an event?
+
+    - event make the website do fun thing when a user clicks, press, or hover over a element.
 
 3. What is an event listener?
 
+    -event listener is a high order function that take two arguments one is for what user do with their mouse or keyboard and second is listener that will do the action after that target element is `click` on or any other event type.
+
 4. Why would we convert a NodeList into an Array?
 
+    - NodeList can only use forEach, using `Array.from()` it gives access to use hight oder function like map, filter, and reduce.
+
 5. What is a component?
+
+    -It's when the do not repet yourself (DIY) come in. It's putting all the `createElement`, `classList`, `textConten`, and `appendChild` are put it in a function and use to make multiple component.
 
 ### Git Set up
 
